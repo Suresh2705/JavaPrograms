@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    /* font-family: "Lato", sans-serif; */
+    /* font-family: Roboto, sans-serif; */
+    /* font-family: Roboto Mono, sans-serif; */
+    /* font-family: Josefin Sans, sans-serif; */
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #28292a;
+    position: relative;
+    box-sizing: border-box;
+    color: #8097A4;
+  }
+
+.indexListItem{
+    padding: 3px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+i{
+    padding: 0px 3px;
+    font-size: larger;
+}
+
+a{
+    text-decoration: none;
+    color: #8097A4;
+}
+
+a:hover{
+    color: rgb(217, 255, 0);
+    font-weight: 600;
+}
+#github:hover{
+    color: white;
+}
+#mail:hover{
+    color: #E34133;
+}
+#linkedin:hover{
+    color: #0A66C2;
+}
+#facebook:hover{
+    color: #0866FF;
+}
+#whatsapp:hover{
+    color: green;
+}
+#twitter:hover{
+    color: #000000;
+}
+#instagram:hover{
+    color: #D73D7B;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 2.5%;
+    right: 2.5%;
+    bottom: 30px;
+    width: 95%;
+    font-size: 30px;
+}
+.footNavPage:hover{
+    color: rgb(217, 255, 0);
+    padding: 3px;
+    font-size: 18px;
+    font-weight: 600;
+}

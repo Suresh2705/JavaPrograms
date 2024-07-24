@@ -1,0 +1,16 @@
+.itag{
+     color:  #D43F52;
+     padding: 10px;
+     border: solid 2px rgb(190, 183, 183);
+     border-radius: 50%;
+     font-size: x-large;
+}
+
+td{
+    height: 50px;
+    font-size: larger;
+    font-weight: 600;
+}
+.latex:hover{
+    color: rgb(23, 242, 12);
+}

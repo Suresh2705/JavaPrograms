@@ -1,0 +1,190 @@
+body{
+    font-weight: 550;
+}
+.latex{
+    color: black;
+}
+.latex:hover{
+    color: maroon;
+}
+
+#articleContainer{
+    width: 96%;
+    display: flex;
+    align-items: center;
+}
+#leftSide{
+    width: 33.3%;
+    position: relative;
+    left: 1.5%;
+}
+#rightSide{
+    width: 33.3%;
+    position: relative;
+    left: 3%;
+}
+#middle{
+    width: 33.3%;
+    position: relative;
+    left: 2.25%;
+}
+
+section{
+    color: black;
+    background-color: rgb(214, 202, 202);
+    display: flex;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.commonStyles{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+}
+
+.sixty{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(114, 207, 207);
+    border: solid 2px rgb(114, 207, 207);
+}
+.seventy{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(88, 221, 88);
+    border: solid 2px rgb(88, 221, 88);
+}
+.seventyfive{
+    height: 75px;
+    width: 75px;
+    background-color: rgb(236, 236, 116);
+    border: solid 2px rgb(236, 236, 116);
+}
+.eighty{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(243, 114, 136);
+    border: solid 2px rgb(243, 114, 136);
+}
+.eightyfive{
+    height: 85px;
+    width: 85px;
+    background-color: rgb(117, 117, 227);
+    border: solid 2px rgb(117, 117, 227);
+}
+.ninety{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(219, 163, 59);
+    border: solid 2px rgb(219, 163, 59);
+}
+.ninetyfive{
+    height: 95px;
+    width: 95px;
+    border: solid 2px green;
+}
+#backend{
+    position: relative;
+    height: 200px;
+}
+#java{
+    top: 60px;
+    left: 130px;
+}
+#jdbc{
+    top: 10px;
+    left: 30px;
+}
+#servlets{
+    top: 110px;
+    left: 40px;
+}
+#jsp{
+    top: 10px;
+    left: 230px;
+}
+#tex{
+    top: 90px;
+    left: 280px;
+}
+
+#frameworks{
+    position: relative;
+    height: 200px;
+}
+#spring{
+    top: 60px;
+    left: 130px;
+}
+#hibernate{
+    top: 10px;
+    left: 30px;
+}
+#springBoot{
+    top: 100px;
+    left: 230px;
+}
+#react{
+    top: 10px;
+    left: 230px;
+}
+
+#frontend{
+    position: relative;
+    height: 200px;
+}
+#html{
+    top: 20px;
+    left: 40px;
+}
+#css{
+    top: 100px;
+    left: 140px;
+}
+#js{
+    top: 10px;
+    left: 230px;
+}
+
+
+#database{
+    position: relative;
+    height: 200px;
+}
+#mysql{
+    top: 90px;
+    left: 230px;
+}
+#oraclesql{
+    top: 20px;
+    left: 130px;
+}
+
+#tools{
+    position: relative;
+    height: 200px;
+}
+#git{
+    top: 70px;
+    left: 160px;
+}
+#eclipse{
+    top: 10px;
+    left: 75px;
+}
+#maven{
+    top: 100px;
+    left: 30px;
+}
+#postman{
+    top: 10px;
+    left: 250px;
+}
+#epsilon{
+    top: 100px;
+    left: 280px;
+}
