@@ -29,3 +29,12 @@ p{
 #aboutBlock>h2{
     margin-bottom: 10px;
 }
+
+#suresh2705>a{
+    color: black;
+}
+#suresh2705>a:hover{
+    /* color: brown; */
+    color: blue;
+    font-weight: bold;
+}
